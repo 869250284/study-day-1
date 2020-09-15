@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/9/15 9:20:19。
+     1>项目“D:\9.8\2020.9.15.c\2020.9.15.c\2020.9.15.c.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\2020.9.15.c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 9.15.c
+         9.15.c
+     1>d:\9.8\2020.9.15.c\2020.9.15.c\9.15.c(71): error C2059: 语法错误:“)”
+     1>已完成生成项目“D:\9.8\2020.9.15.c\2020.9.15.c\2020.9.15.c.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.62
