@@ -1,0 +1,15 @@
+﻿生成启动时间为 2020/10/11 21:21:44。
+     1>项目“D:\9.8\test.10.11.c\test.10.11.c\test.10.11.c.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\test.10.11.c.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 10.11.c
+         10.11.c
+     1>d:\9.8\test.10.11.c\test.10.11.c\10.11.c(34): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+                 d:\9.8\test.10.11.c\test.10.11.c\10.11.c(1) : 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+     1>d:\9.8\test.10.11.c\test.10.11.c\10.11.c(39): fatal error C1083: 无法打开包括文件:“graphics.h”: No such file or directory
+     1>已完成生成项目“D:\9.8\test.10.11.c\test.10.11.c\test.10.11.c.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.74
