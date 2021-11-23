@@ -1,0 +1,4 @@
+<beans>
+    <bean id="userDao" class="com.xiaoming.dao.UserDao"></bean>
+    <bean id="userService" class="com.xiaoming.service.UserService"></bean>
+</beans>
