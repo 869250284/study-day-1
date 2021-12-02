@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+    <!--
+        1.通过表单实现文件上传功能
+        2.文件上传表单要设置表单类型为二进制表单
+            普通表单application/x-www-form-urlencoded
+            二进制表单  multipart/form-data
+        3.设置文件上传的文件域，并设置name属性值
+    -->
+<form action="UploadServlet" method="post" enctype="multipart/form-data">
+    文件：<input type="file"name="myfile"><br>
+    姓名：<input type="text" name="username"><br>
+    <button>上传文件</button>
+</form>
+</body>
+</html>

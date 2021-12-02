@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件下载</title>
+</head>
+<>
+<!--
+       超链接下载
+            当浏览器能够遇到识别的资源，会进行跳转
+            当浏览器无法识别资源，则会进行下载
+       download属性
+            表示当前超链接的资源可以被下载
+            如果download属性没有设置属性，则默认的下载名为文件名；也可通过设置download属性的值来指定下载的文件名
+
+    -->
+<!--浏览器能够识别的资源 -->
+<a href="index.jsp">JSP页面</a><br>
+<a href="upload.html">文件下载页面</a><br>
+<a href="play.jpeg">图片</a><br>
+<a href="text.txt">txt文件</a><br>
+
+<!--浏览器不能识别的资源-->
+<hr>
+<a href="text.txt">TXT文件</a>
+<!--download属性-->
+<a href="play.jpeg" download>图片</a><br>
+<a href="text.txt" download="测试.txt">TXT文件</a>
+</body>
+</html>
