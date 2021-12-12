@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置Bean标签
+    id：默认类名首字母小写
+    class：要实例的类的类路径
+    -->
+    <!--构造器实例化
+        默认方式 ，要求bean对象提供空构造
+
+        -->
+    <bean id="userService" class="com.xiaoming.service.UserService"></bean>
+    <!--静态工厂实例化
+            工厂类
+            工厂类的静态方法
+
+    -->
+    <bean id="userService" class="com.xiaoming.staticFactory" factory-method="creatUserService"/>
+</beans>
